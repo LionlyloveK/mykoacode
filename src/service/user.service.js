@@ -10,7 +10,7 @@ class UserService {
         })
         return res.dataValues
     }
-
+    // 查询是否是重复的ID user_name
     async getUserInfo({
         id, user_name, is_admin
     }) {
