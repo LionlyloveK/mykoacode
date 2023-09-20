@@ -15,7 +15,7 @@ const User = seq.define(
             comment: '用户名,唯一',//简介
         },
         password: {
-            type: DataTypes.CHAR(64),
+            type: DataTypes.STRING,//类型
             allowNull: false,
             comment: '密码',
         },

@@ -18,6 +18,7 @@ const ERRORCODE = {
     AUTHTOKEN: "100016", // 用户登录过期
     NOTIFY: "100017", // 消息推送
     LIKE: "100018", // 点赞
+    GOODS: "100019", // 商品
 };
 
 /**
@@ -44,6 +45,7 @@ function throwError(code, message) {
     return {
         code,
         message,
+        result: ''
     };
 }
 
